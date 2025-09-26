@@ -76,7 +76,7 @@ SUCCESS=1
 rm -f "$ASKPASS_SCRIPT"
 
 if [ "$SUCCESS" -eq 1 ]; then
-  zenity --notification --text="Patch successful. Switch to Gaming Mode when ready." --timeout=4
+  zenity --notification --text="Patch successful. Switch to Gaming Mode when ready. You may need to reload the plugin!" --timeout=4
   exit 0
 else
   exit 1
